@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(255, 185, 54);
+    height: 110px;
+    width: 100%;
+}
+.sesion ul li{
+    list-style: none;
+}
+.sesion ul li a{
+    margin: 0;
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sesion ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.sesion{
+    margin-top: 10px;
+}
+.iconos{
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;  
+    margin-top: 10px;
+}
+.iconos a i{
+    color: white;
+    padding-left: 20px;
+}
+.iconos a i:hover{
+    color: black
+}
+.redesSociales{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.barra{
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    height: 100px;
+    width: 900px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 10;    
+}
+.contenedor-menu{
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    z-index: 1;    
+}
+.tropiland .icono-inicio img{
+    margin-top: 10px;
+    width: 200px;
+}
+.menu-der, .menu-izq{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.menu-der a, .menu-izq a{
+    text-decoration: none;
+    color:rgb(255, 185, 54);
+    margin-left: 30px;
+}
+.menu-der a:hover{
+    color: rgb(0, 0, 0);
+}
+.menu-izq a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* ------------------------------------ CARRUSEL ------------------------------------ */
+#cont-item-carrusel{
+    height: 800px;
+    overflow: hidden;
+}
+.item-carrusel{
+    height: 800px;
+    position: relative;
+}
+.cont-carrusel{
+    /* background-color: rgb(252, 165, 5) ; */
+    height: 100%;
+}
+.flechas-carrusel{
+    /* background-color: rgba(99, 231, 128, 0.3); */
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.flechas-carrusel a{
+    text-decoration: none;
+}
+.flechas-carrusel a i{
+    color: azure;
+    font-size: 30px;
+}
+#crr1{
+    background-color: rgb(226, 196, 255);
+}
+#crr2{
+    background-color: rgb(69, 201, 241);
+}
+#crr3{
+    background-color: rgba(203, 243, 170, 0.993);
+}
